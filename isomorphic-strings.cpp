@@ -1,32 +1,4 @@
-// class Solution {
-//     public boolean isIsomorphic(String s, String t) {
-//         char s1[]=s.toCharArray();
-//         char t1[]=t.toCharArray();
-//         HashMap<Character, Integer> mp=new HashMap<Character, Integer>();
-//         HashMap<Character, Integer> mp1=new HashMap<Character, Integer>();
-//         if(t.length()!=s.length()){
-//             return false;
-//         }
-//         for(int i=0; i<s.length(); i++){
-//             if(mp.conatainsKey(s1[i])){
-//                 if(mp.containsKey(s1[i])!=t1[i]){
-//                     return false;
-//                 }
-//             else{
-//                 if(mp1.contains(t1[i])){
-//                     return false;
-//                 }
-//                 mp.put(s1[i], t1[i]);
-//                 mp1.put(t1[i], s1[i]);
-//             }
-            
 
-
-//         }
-        
-//         return true;
-//     }
-// }
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         char s1[] = s.toCharArray();
